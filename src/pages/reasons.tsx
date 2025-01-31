@@ -36,8 +36,8 @@ export function Reasons() {
   return (
     <section className="container py-24">
       <div className="mx-auto mb-12 max-w-3xl text-center">
-        <Typography.H1>6 причин сказать "Да!" 💝</Typography.H1>
-        <Typography.Lead>
+        <Typography.H1 className="text-foreground">6 причин сказать "Да!" 💝</Typography.H1>
+        <Typography.Lead className="text-muted-foreground">
           Маша, мы собрали для тебя самые важные причины, почему этот проект -
           именно то, что тебе нужно!
         </Typography.Lead>
